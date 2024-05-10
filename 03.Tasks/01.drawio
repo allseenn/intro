@@ -1,26 +1,22 @@
 <mxfile host="65bd71144e">
     <diagram id="Z8sDZhmmWTHAKssIfuWv" name="Page-1">
-        <mxGraphModel dx="163" dy="132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="235" dy="190" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="32" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="38" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="21" target="33" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="413" y="90" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="21" value="start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="373" y="20" width="80" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="32" target="33" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="32" value="input array" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-                    <mxGeometry x="363" y="90" width="100" height="30" as="geometry"/>
-                </mxCell>
                 <mxCell id="40" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="33" target="34" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="index = 0&lt;br&gt;sum = 0&lt;br&gt;mean" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="353" y="140" width="120" height="60" as="geometry"/>
+                <mxCell id="33" value="array =&amp;nbsp;&lt;span style=&quot;color: rgb(44, 45, 48); font-family: Onest, Roboto, &amp;quot;San Francisco&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial; font-size: 15px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;[2, 5, 13, 7, 6, 4]&lt;/span&gt;&lt;br&gt;index = 0&lt;br&gt;sum = 0&lt;br&gt;mean" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="328" y="120" width="170" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="34" target="43" edge="1">
                     <mxGeometry relative="1" as="geometry">
@@ -68,13 +64,11 @@
                         <mxPoint x="599.8" y="420" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="58" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="52" edge="1">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="600" y="290" as="sourcePoint"/>
-                    </mxGeometry>
+                <mxCell id="58" style="edgeStyle=none;html=1;exitX=0.374;exitY=1.023;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="56" target="52" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="mean = sum / array.length" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="540" y="250.5" width="150" height="39" as="geometry"/>
+                    <mxGeometry x="540" y="250.5" width="160" height="39" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
